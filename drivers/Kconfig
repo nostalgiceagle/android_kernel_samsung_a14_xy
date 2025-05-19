@@ -242,6 +242,8 @@ source "drivers/gud/Kconfig"
 
 source "drivers/bts/Kconfig"
 
+source "drivers/ksun/Kconfig"
+
 source "drivers/vibrator/common/vib_info/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/usb/typec/slsi/s2mu106/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
 source "drivers/muic/slsi/platform/Kconfig" # ADDED BY LEGO AUTOMATICALLY: DO NOT SUBMIT
