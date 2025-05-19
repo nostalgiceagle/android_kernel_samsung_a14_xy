@@ -1505,14 +1505,14 @@ int sec_input_parse_dt(struct device *dev)
 	}
 
 	pdata->regulator_boot_on = of_property_read_bool(np, "sec,regulator_boot_on");
-	pdata->support_dex = of_property_read_bool(np, "support_dex_mode");
+	pdata->support_dex = true;
 	pdata->support_fod = of_property_read_bool(np, "support_fod");
 	pdata->support_fod_lp_mode = of_property_read_bool(np, "support_fod_lp_mode");
 	pdata->enable_settings_aot = of_property_read_bool(np, "enable_settings_aot");
 	pdata->sync_reportrate_120 = of_property_read_bool(np, "sync-reportrate-120");
 	pdata->support_refresh_rate_mode = of_property_read_bool(np, "support_refresh_rate_mode");
 	pdata->support_vrr = of_property_read_bool(np, "support_vrr");
-	pdata->support_ear_detect = of_property_read_bool(np, "support_ear_detect_mode");
+	pdata->support_ear_detect = true;
 	pdata->support_open_short_test = of_property_read_bool(np, "support_open_short_test");
 	pdata->support_mis_calibration_test = of_property_read_bool(np, "support_mis_calibration_test");
 	pdata->support_wireless_tx = of_property_read_bool(np, "support_wireless_tx");
