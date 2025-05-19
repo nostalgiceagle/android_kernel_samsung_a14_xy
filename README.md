@@ -26,4 +26,4 @@
 - [KernelSU-Next](https://github.com/KernelSU-Next/KernelSU-Next)
 
  • Looking for GKI README.md?
-   - [Click here!](https://github.com/nostalgiceagle/android_kernel_samsung_a14_xy/blob/ksu-A145FXXS8CXJ2/Documentation/README.md]
+ - [Click here!](https://github.com/nostalgiceagle/android_kernel_samsung_a14_xy/blob/ksu-A145FXXS8CXJ2/Documentation/README.md)
