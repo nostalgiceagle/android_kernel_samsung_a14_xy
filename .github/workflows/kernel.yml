@@ -17,7 +17,7 @@ jobs:
         sudo apt-get install brotli zip zstd tar lz4 cpio xz-utils pahole libelf-dev python2 -y || sudo apt-get install python2 pahole libelf-dev brotli zip zstd tar lz4 cpio xz-utils -y
     - name: Update Git submodules
       run: |
-        git submodules update --init
+        git submodule update --init
     - name: Build
       run: |
         bash build.sh
