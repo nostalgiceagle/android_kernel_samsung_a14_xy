@@ -1,0 +1,5 @@
+*.patch
+*.orig
+*.rej
+out/
+patches/
